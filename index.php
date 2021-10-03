@@ -9,8 +9,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST'){
     $details = $_POST['details'];
     $image=$_FILES['photo']['name'];
     $tmp_name=$_FILES['photo']['tmp_name'];
-
-
     
     if ($details==''){
         echo"<script>alert('Please fill up all details')</script>";
