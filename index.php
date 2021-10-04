@@ -5,6 +5,9 @@ $password="";
 $database="test";
 $conn= mysqli_connect($servername,$username,$password,$database);
 
+
+
+
 if ($_SERVER['REQUEST_METHOD'] == 'POST'){
     $details = $_POST['details'];
     $image=$_FILES['photo']['name'];
